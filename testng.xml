@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" verbose="1" parallel="methods" thread-count="4">
+    <test name="Schnider Mega Menu test" annotations="JDK"
+          preserve-order="true">
+        <classes>
+            <!--<class name="MyRunner.RunCucumberTest" />-->
+            <class name="testsInTestNG.MegaMenuTest" />
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <test thread-count="3" verbose="0" name="Schnider Mega Menu test(failed)" parallel="tests">
+    <classes>
+      <class name="testsInTestNG.MegaMenuTest">
+        <methods>
+          <include name="OpenMenuItem" invocation-numbers="1"/>
+          <include name="verifyLoginUsingCsv" invocation-numbers="0 1 2 3"/>
+          <include name="searchText" invocation-numbers="0 1"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyLinkToggling" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- testsInTestNG.MegaMenuTest -->
+    </classes>
+  </test> <!-- Schnider Mega Menu test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
